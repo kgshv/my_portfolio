@@ -1,0 +1,523 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Roman Kolgushev's personal web site - portfolio, contacts, examples of work">
+    <meta name="author" content="Roman Kolgushev">
+    <link rel="icon" href="img/favi/favicon.ico">
+
+    <title>Roman Kolgushev -- developer, designer, project manager, infographer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="css/vendor/social.css">
+    <!-- Flexslider CSS -->
+    <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css" media="screen" />
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Contrail+One' rel='stylesheet' type='text/css'>
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="css/vendor/jquery-ui.css">
+    <!-- Custom styles -->
+    <link href="css/master.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Roman Kolgushev</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Education & Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+        <div class="absolute" id="portfolio-pdf">
+          <i class="fa fa-file-pdf-o"></i><a href="public/Resume_Roman_Kolgushev.pdf">Download résumé as PDF</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="main-body">
+
+        <h1>Hi! I'm Roman.</h1>
+        <p class="lead"><br>Hover or tap on pie</p>
+
+        <div class="row">
+          <div class="col-md-5 padding-thirty">
+            <img src="img/me.png" class="img-responsive" id='my_face' alt="Roman Kolgushev">
+          </div>
+          <div class="col-md-2">
+            <div class='equals'></div>
+          </div>
+          <div class="col-md-5">
+            <div id="pie"></div>
+          </div>
+        </div>
+
+        <hr />
+        <h2 id='experience'>A few words</h2>
+
+        <div class="row fullwidth">
+          <div class="col-md-12 padding-thirty">
+
+          <div id="few_words">
+            <p>
+              An interdisciplinary professional, I know how to lead complex media projects and solve problems. While studying at the Master’s program at the prestigious Missouri School of Journalism, I discovered my passion for web development, data analysis and visualization. I switched from writing news to writing code, have been doing it ever since. My <a href="#portfolio">portfolio</a> includes web applications, interactive infographics and data visualizations, automation scripts and web scrapers.
+            </p>
+          </div>
+
+          </div>
+        </div>
+
+        <hr />
+        <h2 id='skills'>Skills</h2>
+
+
+        <div class="row fullwidth" id='example_row'>
+          <div id="my_skills">
+
+            <div class="col-md-4 padding-thirty">
+              <div class='skills_graph' id='coding_graph'></div>
+              <div class='note'>&nbsp;</div>
+            </div>
+
+            <div class="col-md-4 padding-thirty">
+              <div class='skills_graph' id='design_graph'></div>
+              <div class='note'>Software by Adobe Inc.</div>
+            </div>
+
+            <div class="col-md-4 padding-thirty">
+              <div class='skills_graph' id='reporting_graph'></div>
+              <div class='note'>*in Adobe Audition</div>
+            </div>
+
+          </div>
+        </div>
+
+        <hr />
+        <h2 id='experience'>Education & Experience</h2>
+        <p class="lead"><br>Hover or tap on timeline for details</p>
+
+        <div class="row fullwidth">
+          <div class="col-md-12 padding-thirty">
+            <div class='fullwidth'>
+              <div id='infobox'>
+                <table class='table table-bordered details-table'>
+                    <tr>
+                      <td id='place'>...</td>
+                    </tr>
+                    <tr>
+                      <td id='role'>...</td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+            <div class='timeline-container'>
+              <div class='timeline' id='work_timeline'></div>
+              <div class='timeline' id='education_timeline'></div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <h2 id='portfolio'>Portfolio</h2>
+        <h3 id='portfolio'>Major projects</h3>
+        <br />
+
+        <div class="row fullwidth">
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'https://www.kyivpost.com/' target='_blank' class="image-container-link">
+              <img src="img/gif/kp.gif" class='portfolio-image-gif'/>
+              <img src="img/KP.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Kyiv Post website redesign and digital strategy re-ignition
+                  </p>
+                  <p class='portfolio-body'>
+                    As a Head of Newsroom Digital Innovation of the award-winning Kyiv Post, I helped re-thing and re-kindle publication's digital strategy and business model, and lead the re-design of it's website.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'https://github.com/roloyar/smarty' target='_blank' class="image-container-link">
+              <img src="img/SM.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Smarty - a Google analytics Slack bot
+                  </p>
+                  <p class='portfolio-body'>
+                    Smarty was built for the <a href="https://www.kyivpost.com" target="_blank">Kyiv Post</a> newsroom but is open source! It integrates into your Slack account and can tell you all kinds of things about how your articles are performing!
+                  </p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row fullwidth">
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://www.nationalgeographic.org/dc/exhibitions/natgeo-most-popular-instagram-photos/' target='_blank' class="image-container-link">
+              <img src="img/gif/natgeo.gif" class='portfolio-image-gif'/>
+              <img src="img/NATGEO.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    National Geographic Museum exhibition Interactive screen
+                  </p>
+                  <p class='portfolio-body'>
+                    An interactive presentation for the <a href = 'http://www.nationalgeographic.org/dc/exhibitions/natgeo-most-popular-instagram-photos/' target='_blank'>"@NatGeo: The Most Popular Instagram Photos"</a> exhibition by the National Geographic Museum in Washington DC, USA. A screen, installed at the exhibition, was connected to a miniPC, which regularly and autonomously scraped the NatGEO Instagram profile and pulled the most recent data and photos, presenting them in a dynamic sideshow.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'static/Class-Syllabus.docx' target='_blank' class="image-container-link">
+              <img src="img/KMA.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Information graphics class Syllabus and coursework
+                  </p>
+                  <p class='portfolio-body'>
+                    As I was hired to teach Information Graphics and Data Journalism at the <a href="http://en.j-school.kiev.ua/" target="_blabk">National University of Kyiv-Mohyla School of Journalism</a>, I devised a syllabus and all the coursework for this semester-long full-time class. Fair warning - I taught in Ukrainian, and the Syllabus linked here is also in Ukrainian.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row fullwidth">
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://labs.kyivpost.com/editorial/they-call-her-mama/' target='_blank' class="image-container-link">
+              <img src="img/MM.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    They call her Mama
+                  </p>
+                  <p class='portfolio-body'>
+                    Visual design of a long-read article, photo layout and design. Also built the audio subtitles playback and view mechanism (JS with Sound Cloud API).
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://www.columbiamissourian.com/crimetracker' target='_blank' class="image-container-link">
+              <img src="img/CT.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Crime tracker
+                  </p>
+                  <p class='portfolio-body'>
+                    Fully autonomous web application, build on automatic daily parsing of local police data. Combines back end built in Python with graphics-heavy front end.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row fullwidth">
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://www.youtube.com/watch?v=FZPGrLQN_6s' target='_blank' class="image-container-link">
+              <img src="img/gif/gm.gif" class='portfolio-image-gif'/>
+              <img src="img/GM.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Graphics Manager
+                  </p>
+                  <p class='portfolio-body'>
+                    An assignment management tool, used in the newsroom daily. Built from ground with Flask (Python), features Google Plus authentication, user roles management, internal messaging, much more.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 padding-thirty relative portfolio-big">
+            <a href = 'http://kbia.org/topic/here-say' target='_blank' class="image-container-link">
+              <img src="img/HS.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    KBIA HereSay
+                  </p>
+                  <p class='portfolio-body'>
+                    Partnered with <a href="http://www.journalism.missouri.edu">J-School</a> journalism student Abby Keel to design from bottom up a map-based app for her capstone project.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row fullwidth">
+      
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://turnip.strikingly.com' target='_blank' class="image-container-link">
+              <img src="img/TURNIP.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Turnip demo app front end
+                  </p>
+                  <p class='portfolio-body'>
+                    Designed the front end for the <a href="http://turnip.strikingly.com">Turnip</a> team demo application.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-big">
+            <a href = 'http://labs.kyivpost.com/election-results/' target='_blank' class="image-container-link">
+              <img src="img/KE.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Interactive live updated map of Kyiv mayoral elections
+                  </p>
+                  <p class='portfolio-body'>
+                    Linked to a Google spreadsheet for instant data update (as the results came in), interactive map + interactive charts.
+                  </p>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <br />
+        <h3>Smaller projects</h3>
+        <div class="row fullwidth">
+
+          <br />
+
+          <div class="col-md-4 portfolio-big">
+            <a href = 'http://archive.voxmagazine.com/media/multimedia/2012/AgainstTheOdds/inside/site.html' target='_blank'>
+              <img src="img/odds.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                    <p class='portfolio-head'>
+                      Vox Against The Odds
+                    </p>
+                    <p class='portfolio-body'>
+                      Responsive and touch-friendly mini site. Won the <a href="http://ssnd.wordpress.com/2013/04/16/mini-sitespecial-section-of-a-news-website-2" target="_blank">SSND design contest.</a>
+                  </p>
+                </div>
+            </div>
+          </div>
+<!--           <div class="col-md-4 portfolio-big">
+            <a href = 'http://ec2-54-187-186-205.us-west-2.compute.amazonaws.com/food-inspector/' target='_blank'>
+              <img src="img/FI.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Food Inspector (alpha)
+                  </p>
+                  <p class='portfolio-body'>
+                    Prototype web application, built on local restaurant inspection data.
+                  </p>
+                </div>
+            </div>
+          </div> -->
+          <div class="col-md-4 portfolio-big">
+            <a href = 'http://first-interactive.s3-website-us-west-2.amazonaws.com/' target='_blank'>
+              <img src="img/CI.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Custom interactive
+                  </p>
+                  <p class='portfolio-body'>
+                    Designed without dedicated JS visualization libraries, pulls data live from a Google Spreadsheet.
+                  </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolio-big">
+            <a href = 'https://docs.google.com/file/d/0B7CGW4mEfA9eWWRpUlRfdUVxWjg' target='_blank'>
+              <img src="img/PM.jpg" width="100%" class='portfolio-image'/>
+            </a>
+            <div class='portfolio-caption-container'>
+                <div class='absolute portfolio-caption'>
+                  <p class='portfolio-head'>
+                    Magazine (Re)design
+                  </p>
+                  <p class='portfolio-body'>
+                    A part of a class project, but illustrative of my (re)design skills and experience with Adobe CC suite.
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <h3>Smaller static & interactive graphics</h3>
+
+        <div class="row fullwidth">
+          <br />
+
+          <div id='slider_container' class='padding-thirty'>
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <a href='http://columbiamissourian.com/app/ig/graphics/int_graph/como-flights-are-on-the-rise.html' target='_blank'>
+                    <img src="img/slides/inter_airport.jpg" title="Airport activity"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="public/02_08_Missouri_Rivers_big.gif" target='_blank'>
+                    <img src="img/slides/stat_d.jpg" title="Diagram" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.columbiamissourian.com/news/city-s-rental-inspection-regime-lacks-teeth/article_1494398d-2b24-5dea-b836-939f3715caf6.html" target='_blank'>
+                    <img src="img/slides/inter_housing.jpg" title="Presentation of inspections of a housing facility, used DataTables.js" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://columbiamissourian.com/app/projects/snow/index.html" target='_blank'>
+                    <img src="img/slides/inter_snow.jpg" title="Map built from external data file with custom legend" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.columbiamissourian.com/news/modot-reduces-speed-limit-on-part-of-i--in/article_4dc1d5df-cb30-5fd1-be3e-28b3a49f7016.html" target='_blank'>
+                    <img src="img/slides/inter_map.jpg" title="Simple traffic warning map" />
+                  </a>
+                </li>
+                <li>
+                  <a href="public/03_26_911_Story__t_w600_h3000.gif" target='_blank'>
+                    <img src="img/slides/stat_floor.jpg" title="Map and an illustration" />
+                  </a>
+                </li>
+                <li>
+                  <a href="public/Graphic_web.gif" target='_blank'>
+                    <img src="img/slides/stat_compare.jpg" title="Comparing budget spendings" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://missouribusinessalert.com/industries/26811/2013/04/26/payrolls-forcardinals-royals-payrolls-rise-as-mlb-pay-hits-record-high/" target='_blank'>
+                    <img src="img/slides/stat_sport.jpg" title="Sport stats" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://missouribusinessalert.com/uncategorized/32867/2013/08/01/mls-all-stars-outspent-outmatched-by-roma/" target='_blank'>
+                    <img src="img/slides/stat_foot.jpg" title="A foorball match infographic" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://missouribusinessalert.com/industries/banking-finance/32820/2013/08/06/how-much-can-one-share-of-a-missouri-stock-buy-graphic/" target='_blank'>
+                    <img src="img/slides/stat_share.jpg" title="What a share of stock can buy" />
+                  </a>
+                </li>
+                <li>
+                  <a href="http://missouribusinessalert.com/industries/29434/2013/06/14/crowdit-seeks-to-change-crowdfunding-by-adding-expert-advice/" target='_blank'>
+                    <img src="img/slides/stat_web.jpg" title="Website traffic visualized" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+
+        <hr />
+        <h2 id='contact'>Contact me</h2>
+        <div class="row fullwidth">
+          <a target="_blank" href="https://www.facebook.com/roman.kolgushev" class="btn azm-social azm-size-64 azm-circle azm-facebook"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/pub/roman-kolgushev/62/523/932" class="btn azm-social azm-size-64 azm-circle azm-linkedin"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="http://www.github.com/roloyar" class="btn azm-social azm-size-64 azm-circle azm-github"><i class="fa fa-github"></i></a>
+          <a target="_blank" href="mailto:kolgushev@gmail.com" class="btn azm-social azm-size-64 azm-circle azm-email-2"><i class="fa fa-envelope"></i></a>
+          <a target="_blank" href="https://plus.google.com/104995799134223787272/posts" class="btn azm-social azm-size-64 azm-circle azm-google-plus"><i class="fa fa-google-plus"></i></a>
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery UI -->
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Modernizr (for FlexSlider) -->
+    <script src="flexslider/modernizr.js"></script>
+    <!-- FlexSlider -->
+    <script src="flexslider/jquery.flexslider-min.js"></script>
+    <!-- Highcharts -->
+    <script src="js/highcharts.js"></script>
+    <!-- D3 -->
+    <script src="js/d3.v3.min.js" charset="utf-8"></script>
+    <!-- D# Timeline Plugin -->
+    <script src='js/d3-timeline.js' type="text/javascript"></script>
+    <!-- Images are loaded -->
+    <script src='js/imagesloaded.pkgd.min.js' type="text/javascript"></script>
+    <!-- Custom page script -->
+    <script src='js/master.js' type="text/javascript"></script>
+
+    <!-- Google analytics tracker -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48514106-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
