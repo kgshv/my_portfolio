@@ -154,7 +154,7 @@ $(function() {
 			'bgcolor': colors.jour_light,
 			'categories': ['','Communication','Risk management','Leadership','Team play','Agile + Scrum'],
 			'numbers': [0,95,75,85,90,70],
-			'title': 'Management'
+			'title': 'Project Management'
 		},
 	]
 
@@ -194,10 +194,10 @@ $(function() {
 				width: 7
 			},
 			data: [
-				['Coder', 30],
-				['Project manager', 30],
-				['Designer', 17],
-				['Infographer', 23]
+				['Coder', 45],
+				['Infographer', 23],
+				['Project manager', 22],
+				['UI/UX Designer', 10],
 			]
 		}]
 	});
@@ -308,7 +308,7 @@ $(function() {
 				},
 				{
 					"label":"Freelance",
-					'role': 'One happy freelancer :)',
+					'role': 'Front end / back end / full stack dev, in particular for Wordpress',
 					"color": colors.viz_dark,
 					'graph': '_01',
 					"starting_time": getMyDate('06-01-2017'), "ending_time": Date.now()
@@ -330,7 +330,7 @@ $(function() {
 					"starting_time": getMyDate('09-01-2004'), "ending_time": getMyDate('08-20-2009')
 				},
 				{
-					"label": 'Convergence journalism program in Kiev (Ukraine)',
+					"label": 'Convergence journalism program in Kyiv (Ukraine)',
 					"role": "at National University of Kyiv-Mohyla Academy",
 					"color": colors.design_dark,
 					'graph': '_02',
@@ -338,7 +338,7 @@ $(function() {
 				},
 				{
 					"label": 'University of Missouri (in Columbia, USA)',
-					"role": "School of Journalism, MA in Journalism",
+					"role": "School of Journalism, MA in Journalism with forus on Data Journalism",
 					"color": colors.design_dark,
 					'graph': '_02',
 					"starting_time": getMyDate('08-20-2012'), "ending_time": getMyDate('08-20-2014')
